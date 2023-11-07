@@ -1,0 +1,117 @@
+*[b-qgwabhv6zq] {
+    box-sizing: border-box;
+}
+
+body[b-qgwabhv6zq] {
+    background: #313866;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.container[b-qgwabhv6zq] {
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.search-container[b-qgwabhv6zq] {
+    display: flex;
+}
+
+input[b-qgwabhv6zq],
+button[b-qgwabhv6zq] {
+    border: 1px solid #dedede;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin: 0;
+}
+
+    input[type="text"][b-qgwabhv6zq] {
+        width: 300px;
+    }
+
+.search-btn[b-qgwabhv6zq] {
+    cursor: pointer;
+    border-left: 0;
+    border-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* grid */
+.movies[b-qgwabhv6zq] {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 70px;
+    margin-top: 20px;
+}
+
+.movie[b-qgwabhv6zq] {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+    .movie img[b-qgwabhv6zq] {
+        width: 100%;
+        height: 100%;
+        border: 1px #fff solid;
+        border-radius: 4px;
+    }
+
+.movie-info[b-qgwabhv6zq] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease-in;
+    opacity: 0;
+}
+
+    .movie-info:hover[b-qgwabhv6zq] {
+        opacity: 1;
+    }
+
+.single-movie[b-qgwabhv6zq] {
+    margin-top: 30px;
+    border-top: #974ec3 solid 4px;
+    margin: 30px auto;
+    width: 70%;
+}
+
+    .single-movie a[b-qgwabhv6zq] {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .single-movie img[b-qgwabhv6zq] {
+        width: 300px;
+        margin: 15px;
+        border: 4px #fff solid;
+        border-radius: 2px;
+    }
+
+.single-movie-info[b-qgwabhv6zq] {
+    margin: 20px;
+    padding: 10px;
+    border: 2px #974ec3 dashed;
+    border-radius: 5px;
+}
+
+.single-movie p[b-qgwabhv6zq] {
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
